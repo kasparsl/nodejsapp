@@ -1,0 +1,4 @@
+var zipcode = require('zipcode');
+
+console.oog(zipcode.lookup('94085'));
+
