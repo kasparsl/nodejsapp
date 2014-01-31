@@ -1,0 +1,28 @@
+{
+  "name": "nodejsapp",
+  "version": "0.0.2",
+  "description": "Node.js express app sample using ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kasparsl/nodejsapp.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*"	
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "ejs"
+  ],
+  "author": "Kaspars Leinis",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/kasparsl/nodejsapp/issues"
+  },
+  "homepage": "https://github.com/kasparsl/nodejsapp"
+}
