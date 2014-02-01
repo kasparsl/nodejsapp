@@ -11,9 +11,11 @@ app.get('/about', function(req,res) {
 });
 
 app.get('/*', function(req,res) {
-	res.status(404).render('error.ejs', {title: 'About the coolest US error'});
+	res.status(404).render('error.ejs', {title: 'About the coolest US error!!! hmm...'});
 });
 
 
-app.listen(3000);
-console.log('Server is UP and running on port 3000');
+//app.listen(3000); //for localhost only
+//app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT);
+console.log('Server is UP and running on port '+ process.env.PORT);
